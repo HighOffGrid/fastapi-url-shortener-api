@@ -43,6 +43,20 @@ Client
 │
 ▼ PostgreSQL + Redis
 
+## Estrutura do projeto
+
+app/
+├── main.py
+├── models/
+├── schemas/
+├── repositories/
+├── services/
+├── routers/
+├── core/
+└── utils/
+
+---
+
 ## Rodando o projeto
 
 Clone o repositório:
@@ -72,15 +86,3 @@ uvicorn app.main:app --reload
 Swagger UI: http://127.0.0.1:8000/docs
 
 ReDoc: http://127.0.0.1:8000/redoc
-
-## Estrutura do projeto
-
-app/
-├── main.py
-├── models/
-├── schemas/
-├── repositories/
-├── services/
-├── routers/
-├── core/
-└── utils/
