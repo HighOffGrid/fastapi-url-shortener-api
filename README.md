@@ -57,6 +57,12 @@ app/
 
 ---
 
+## Objetivo
+
+Este projeto foi desenvolvido para prática de desenvolvimento backend moderno com FastAPI, boas práticas de arquitetura, integração com Redis e Rate Limiting, além de containerização via Docker.
+
+---
+
 ## Rodando o projeto
 
 Clone o repositório:
@@ -65,9 +71,13 @@ Clone o repositório:
 git clone https://github.com/seuuser/fastapi-url-shortener-api
 cd fastapi-url-shortener-api
 
+---
+
 Instale as dependências:
 
 pip install -r requirements.txt
+
+---
 
 ## Rodando com Docker
 
@@ -76,6 +86,8 @@ O projeto já vem configurado com Docker e Docker Compose, incluindo PostgreSQL 
 docker compose up --build
 
 A API só inicia quando o PostgreSQL e o Redis estiverem prontos, graças ao wait-for-it.sh.
+
+---
 
 ## Executando a API
 
