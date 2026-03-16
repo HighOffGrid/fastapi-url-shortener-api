@@ -45,6 +45,7 @@ Client
 
 ## Estrutura do projeto
 
+```
 app/
 ├── main.py
 ├── models/
@@ -54,6 +55,7 @@ app/
 ├── routers/
 ├── core/
 └── utils/
+```
 
 ---
 
