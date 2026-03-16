@@ -69,7 +69,7 @@ Clone o repositório:
 
 ```bash
 git clone https://github.com/seuuser/fastapi-url-shortener-api
-cd fastapi-url-shortener-api
+cd ffastapi-url-shortener
 
 ---
 
