@@ -1,8 +1,18 @@
+# Ambiente
+.env
+.venv/
+venv/
+
+# IDE
+.vscode/
+.idea/
+
 # Python
 __pycache__/
 *.py[cod]
-venv/
-.env
+*$py.class
+*.so
+.Python
 
 # Docker
 *.log
