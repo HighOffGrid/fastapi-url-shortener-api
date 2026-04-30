@@ -72,21 +72,21 @@ Clone o repositório:
 ```bash
 git clone https://github.com/seuuser/fastapi-url-shortener-api
 cd ffastapi-url-shortener
-
+```
 ---
 
 Instale as dependências:
-
+```
 pip install -r requirements.txt
-
+```
 ---
 
 ## Rodando com Docker
 
 O projeto já vem configurado com Docker e Docker Compose, incluindo PostgreSQL e Redis:
-
+```
 docker compose up --build
-
+```
 A API só inicia quando o PostgreSQL e o Redis estiverem prontos, graças ao wait-for-it.sh.
 
 ---
@@ -94,9 +94,10 @@ A API só inicia quando o PostgreSQL e o Redis estiverem prontos, graças ao wai
 ## Executando a API
 
 Para rodar sem Docker (apenas para desenvolvimento):
-
+```
 uvicorn app.main:app --reload
 
 Swagger UI: http://127.0.0.1:8000/docs
 
 ReDoc: http://127.0.0.1:8000/redoc
+```
